@@ -19,20 +19,28 @@ This project implements two versions of the quicksort algorithm (non-random and 
 The following results were obtained from running the Quicksort benchmarks for different input sizes. The times are measured in milliseconds (ms) for each case:
 
 ```plaintext
-Best Case (n=100): 0.082833ms
-Worst Case (n=100): 0.037333ms
-Average Case (n=100): 0.050208ms
+Best Case (n=100): 0.000000ms
+Worst Case (n=100): 0.000000ms
+Average Case (n=100): 0.000000ms
 
-Best Case (n=500): 0.414209ms
-Worst Case (n=500): 0.240083ms
-Average Case (n=500): 0.345750ms
+Best Case (n=500): 10.731220ms
+Worst Case (n=500): 0.504732ms
+Average Case (n=500): 0.000000ms
 
-Best Case (n=1000): 5.176584ms
-Worst Case (n=1000): 1.204500ms
-Average Case (n=1000): 1.518041ms
+Best Case (n=1000): 3.248692ms
+Worst Case (n=1000): 2.505541ms
+Average Case (n=1000): 0.978708ms
+
+Best Case (n=5000): 3.257275ms
+Worst Case (n=5000): 19.475698ms
+Average Case (n=5000): 12.760878ms
+
+Best Case (n=10000): 17.378807ms
+Worst Case (n=10000): 73.850632ms
+Average Case (n=10000): 65.176487ms
 ```
 
-![Quicksort_Non-Random](https://github.com/user-attachments/assets/bd93c694-7c68-4f98-8e4b-e3d9691d85e1)
+![Graph](https://github.com/user-attachments/assets/213a42df-0b21-42c0-9fc0-d2d5a78d24c9)
 
 ## System Information
 
